@@ -5,7 +5,7 @@ import os
 import math
 
 cwd = os.getcwd()
-archivo = cwd + "/libs/ecg_data.csv"
+archivo = cwd + "/libs/ecg_data2.csv"
 ecg_data = pd.read_csv(archivo)
 
 time = ecg_data['time']
